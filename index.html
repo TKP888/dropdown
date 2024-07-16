@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Dropdown Test</h1>
+    <div class="header">
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>Information</button>
+        <div class="dropdown-menu information-grid">
+          <div class="dropdown-heading">
+            Film
+            <div class="dropdown-links">
+              <a href="#" class="link">Showreel</a>
+              <a href="#" class="link">Recent Projects</a>
+              <a href="#" class="link">Behind The Scenes</a>
+            </div>
+          </div>
+          <div class="dropdown-heading">
+            Photography
+            <div class="dropdown-links">
+              <a href="#" class="link">Portfolio</a>
+              <a href="#" class="link">Portraits</a>
+              <a href="#" class="link">Landscapes</a>
+            </div>
+          </div>
+          <div class="dropdown-heading">
+            Developer
+            <div class="dropdown-links">
+              <a href="#" class="link">Websites</a>
+              <a href="#" class="link">Apps</a>
+              <a href="#" class="link">Software</a>
+            </div>
+          </div>
+          <div class="dropdown-heading">
+            Other
+            <div class="dropdown-links">
+              <a href="#" class="link">About</a>
+              <a href="#" class="link">Contact</a>
+              <a href="#" class="link">Blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="link" data-dropdown-button>Pricing</button>
+
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>Login</button>
+        <div class="dropdown-menu">
+          <form class="login-form">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" />
+            <button class="submit">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
